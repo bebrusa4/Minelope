@@ -51,6 +51,11 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.Goodgame {
+    padding-left: 30%;
+}
+
+
 .container {
     width: 100%;
     max-width: 1200px;
