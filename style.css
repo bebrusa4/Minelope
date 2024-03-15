@@ -24,12 +24,14 @@ header>div {
     justify-content: space-beetween;
     align-items: center;
 }
-    
+ header p {
+     padding: 0%;
+ }   
 
 
 
 img {
-    width: 50%;
+    width: 25%;
     padding-left: 0.5%;
 }
 a {
