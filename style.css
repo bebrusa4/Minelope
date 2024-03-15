@@ -117,6 +117,12 @@ h3{
     color: white;
 }
 .h1main {
-    padding-left: 34%;
+    text-align:center;
     
+}
+@media (max-width:1920px)
+{
+    nav {
+        width:35%;
+    }
 }
