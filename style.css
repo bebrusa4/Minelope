@@ -18,9 +18,18 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+header>div {
+    width: 25%;
+    display:flex;
+    justify-content: space-beetween;
+    align-items: center;
+}
+    
+
+
 
 img {
-    width: 5%;
+    width: 50%;
     padding-left: 0.5%;
 }
 a {
