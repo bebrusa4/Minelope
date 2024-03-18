@@ -10,6 +10,11 @@ body {
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
 header {
     padding: 0%;
@@ -91,12 +96,12 @@ input {
 p {
     font-weight: 600;
     font-size: 28px;
-    padding-left: 30%;
+    
     
 }
 .imag{
     width: 25%;
-    padding-left: 35%;
+    
 }
 h1{
     font-weight:700;
@@ -117,7 +122,7 @@ h3{
     color: white;
 }
 .h1main {
-    text-align:center;
+    
     
 }
 @media (max-width:1920px)
