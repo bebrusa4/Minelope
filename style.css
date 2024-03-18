@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Old+Standard+TT&display=swap');
 
-
+@font-face {
+  font-family: "Monocraft";
+  src: url("Monocraft.ttf");
+}
 
 body {
     background-image:url(2024-01-13_17.59.35_4.jpg) ;
@@ -8,7 +11,7 @@ body {
     background-attachment:fixed;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Monocraft', sans-serif;
 }
 main{
     display:flex;
@@ -84,8 +87,9 @@ nav {
     margin: 0 auto;
 }
 article {
-    padding-top: 80px;
-    padding-bottom: 80px;
+   display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 input {
