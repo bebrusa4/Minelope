@@ -72,7 +72,7 @@ nav {
     align-items: center;
 }
 .Goodgame {
-    padding-left: 41%;
+    
 }
 .h1site {
    
@@ -90,6 +90,7 @@ article {
    display:flex;
     flex-direction:column;
     align-items:center;
+  padding:3%;
 }
 
 input {
