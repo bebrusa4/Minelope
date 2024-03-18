@@ -11,7 +11,7 @@ body {
     background-attachment:fixed;
     margin: 0;
     padding: 0;
-    font-family: 'Monocraft', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 main{
     display:flex;
@@ -35,6 +35,7 @@ header>div {
  header p {
      padding: 0%;
      color: white;
+   font-family: 'Monocraft', sans-serif;
  }   
 
 
