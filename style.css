@@ -167,6 +167,7 @@ h3{
     width: 80%;
     height: 5px;
     background: white;
+  border-radius: 3px;
 }
 @media (max-width: 900px) {
     .menu {
