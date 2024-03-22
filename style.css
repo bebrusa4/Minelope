@@ -181,7 +181,7 @@ h3{
         width: 100%;
         padding: 0;
         position: absolute;
-        background: white;
+        background: rgb(58, 58, 58);
         transform: translateX(-100%);
     }
 
@@ -190,7 +190,7 @@ h3{
         display: flex;
         justify-content: center;
         align-items: center;
-      color:black;
+
     }
 
     .menu_small_item:first-child {
