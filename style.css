@@ -130,3 +130,9 @@ h3{
         width:45%;
     }
 }
+@media (max-width:1366px)
+{
+  nav {
+    width:40%;
+  }
+}
