@@ -43,6 +43,7 @@ header>div {
 
 img {
     width: 25%;
+  object-fit: contain;
     padding-left: 0.5%;
 }
 a {
