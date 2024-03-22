@@ -166,7 +166,7 @@ h3{
 .stick {
     width: 80%;
     height: 5px;
-    background: black;
+    background: white;
 }
 @media (max-width: 900px) {
     .menu {
@@ -198,7 +198,7 @@ h3{
     .menu_small_icon {
         position: absolute;
         top: 1em;
-        left: 1em;
+        right: 1em;
         width: 50px;
         height: 50px;
         display: flex;
