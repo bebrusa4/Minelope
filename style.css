@@ -156,7 +156,7 @@ h3{
 
 .menu-small {
     display: none;
-    height: 2em;
+    
 }
 
 .menu_small_item {
@@ -190,6 +190,7 @@ h3{
         display: flex;
         justify-content: center;
         align-items: center;
+      color:black;
     }
 
     .menu_small_item:first-child {
