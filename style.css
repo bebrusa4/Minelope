@@ -127,12 +127,27 @@ h3{
 @media (max-width:1920px)
 {
     nav {
-        width:45%;
+        width:35%;
     }
 }
 @media (max-width:1366px)
 {
   nav {
-    width:40%;
+    width:50%;
   }
 }
+@media (max-width:1176px)
+{
+  nav {
+    width:55%;
+  }
+}
+@media (max-width:1024px)
+{
+  nav {
+    width:65%;
+  }
+}
+
+
+
