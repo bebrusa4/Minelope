@@ -215,6 +215,87 @@ h3{
     }
 }
 
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    list-style: none;
+ }
 
+@media (min-width: 320px) and (max-width: 700px){
+    .burger-menu{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        transition: 0.3s ease;
+    }
+    .burger-menu::before,
+    .burger-menu::after {
+        content: ''; /* пустой контент */
+        background: #fff; /*цвет бургера*/
+        position: absolute; /* позиция для общего блока*/
+        width: 100%; /* ширина*/
+        height: 2px; /* толщина полосок бургера */
+        transition: 0.3s ease;
+    }
+    
+    .burger-menu::before {
+        top: 0; /* расположение верхней линии бургера */
+    }
 
+    .burger-menu span { /*средняя линия в виде span*/
+        background: #fff;
+        position: absolute; 
+        width: 100%;
+        top: 9px;
+        height: 2px; 
+    }
+    .burger-menu::after {
+        bottom: 0; /* расположение нижней линии бургера */
+    }
+    .main-nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background: #272727;
+        border: 1px solid white;
+        padding: 20px 10px;
+        transform: translateX(100%);
+    }
+    .nav-list{
+        flex-direction: column;
+        text-align: right;
+    }
 
+    /* active */
+
+    .burger-menu.active {
+        z-index: 3;
+        transform: translateX(-40vw);
+        transition: 0.3s ease;
+    }
+
+    .burger-menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+        transition: 0.3s ease;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        transition: 0.3s ease;
+    }
+
+    .burger-menu.active span {
+        transform: scale(0);
+    }
+
+    .main-nav.active {
+       transform: translate(0);
+       transition: 0.3s ease;
+    }
+}
