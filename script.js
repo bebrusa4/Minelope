@@ -1,6 +1,14 @@
 let tag = document.querySelector('h1');
 tag.style.fontSize = '4';
 
+let burger = document.querySelector('.burger-menu');
+let nav = document.querySelector('.main-nav');
+
+burger.addEventListener('click', function(){
+    burger.classList.toggle('active');
+    nav.classList.toggle('active')
+})
+
 let condition = true;
  let start = 0;
  let end = 0;
