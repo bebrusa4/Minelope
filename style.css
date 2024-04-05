@@ -228,7 +228,7 @@ list-style:none;
     .burger-menu{
         display: block;
         position: relative;
-        width: 30px;
+        width: 40px;
         height: 20px;
         transition: 0.3s ease;
     }
@@ -238,12 +238,14 @@ list-style:none;
         background: #fff; /*цвет бургера*/
         position: absolute; /* позиция для общего блока*/
         width: 100%; /* ширина*/
-        height: 2px; /* толщина полосок бургера */
+        height: 5px; /* толщина полосок бургера */
         transition: 0.3s ease;
+        border-radius: 3px;
+      
     }
     
     .burger-menu::before {
-        top: 0; /* расположение верхней линии бургера */
+        top: -1px; /* расположение верхней линии бургера */
     }
 
     .burger-menu span { /*средняя линия в виде span*/
@@ -251,10 +253,12 @@ list-style:none;
         position: absolute; 
         width: 100%;
         top: 9px;
-        height: 2px; 
+        height: 5px; 
+        border-radius: 3px;
+        
     }
     .burger-menu::after {
-        bottom: 0; /* расположение нижней линии бургера */
+        bottom: -5px; /* расположение нижней линии бургера */
     }
     .main-nav{
         position: absolute;
