@@ -166,6 +166,9 @@ list-style:none;
   header img{
     width:60%
   }
+  .imag{
+    width:100%
+  }
     .burger-menu{
         display: block;
         position: relative;
