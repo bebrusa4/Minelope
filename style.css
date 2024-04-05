@@ -258,7 +258,7 @@ list-style:none;
         
     }
     .burger-menu::after {
-        bottom: -5px; /* расположение нижней линии бургера */
+        bottom: -4px; /* расположение нижней линии бургера */
     }
     .main-nav{
         position: absolute;
@@ -285,13 +285,13 @@ list-style:none;
 
     .burger-menu.active::before {
         transform: rotate(45deg);
-        top: 9px;
+        top: 8px;
         transition: 0.3s ease;
     }
 
     .burger-menu.active::after {
         transform: rotate(-45deg);
-        bottom: 9px;
+        bottom: 8px;
         transition: 0.3s ease;
     }
 
