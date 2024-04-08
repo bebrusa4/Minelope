@@ -22,8 +22,16 @@ main{
 
 .block {
     display:flex;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
+}
+
+.container {
+  align-items: center;
+    flex-direction: column;
+    display: flex;
+  width:60%;
 }
 
 header {
@@ -80,15 +88,7 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
 
-
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 article {
    display:flex;
     flex-direction:column;
