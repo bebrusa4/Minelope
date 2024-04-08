@@ -145,17 +145,26 @@ h3{
   nav {
     width:50%;
   }
+  .block {
+    flex-direction:column;
+  }
 }
 @media (max-width:1176px)
 {
   nav {
     width:55%;
   }
+   .block {
+    flex-direction:column;
+  }
 }
 @media (max-width:1024px)
 {
   nav {
     width:65%;
+  }
+   .block {
+    flex-direction:column;
   }
 }
 
@@ -173,6 +182,9 @@ list-style:none;
 @media (min-width: 280px) and (max-width: 700px){
   header img{
     width:60%
+  }
+   .block {
+    flex-direction:column;
   }
   .imag{
     width:100%
